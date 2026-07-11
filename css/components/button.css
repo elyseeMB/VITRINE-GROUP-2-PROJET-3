@@ -1,0 +1,53 @@
+button,
+.btn {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 300;
+  font-style: normal;
+  padding-inline: 0.5rem;
+  height: 48px;
+  width: 190px;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-inline: var(--space-base);
+}
+
+a.btn {
+  font-size: var(--text-base);
+  text-decoration: none;
+}
+
+.btn svg {
+  width: 24px;
+}
+
+
+.btn-secondary {
+  color: var(--foreground);
+  background-color: var(--secondary);
+}
+
+.btn-primary {
+  font-size: var(--text-lg);
+  color: var(--background);
+  background-color: var(--accent);
+}
+
+.btn-neutre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--background);
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  background-color: rgba(202, 202, 202, 0.148);
+  transition: background-color 300ms;
+}
+
+.btn-neutre:hover {
+  background-color: rgba(255, 255, 255, 0.231);
+}

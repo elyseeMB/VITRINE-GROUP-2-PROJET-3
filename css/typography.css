@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Kate";
+  src: url("./fonts/kaftan-trial.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Kate";
+  src: url("./fonts/Kate-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kate Display";
+  src: url("./fonts/Kate-Display.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/*  */
+
+h1 {
+  font-family: var(--font-serif);
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-family: var(--font-sans);
+  padding: 0;
+  margin: 0;
+}

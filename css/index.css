@@ -1,36 +1,72 @@
+/* @import "./reset.css"; */
+@import "./typography.css";
+
+
+/* Section */
+@import "./sections/hero.css";
+@import "./sections/projets.css";
+
+
+/* Components */
+@import "./components/button.css";
+@import "./components/card.css";
+
+
+/* modules */
+@import "./modules/navbar.css";
+
 :root {
-  --font-mono: "Geist Mono", monospace;
+  --font-serif: "Kate", serif;
   --font-sans: "inter", sans-serif;
-  --font-serif: "Playfair Display SC", serif;
 
   --text-base: 16px;
-  --space-base: 1.125rem;
+  --space-base: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 2.5rem;
+  --space-3xl: 3rem;
+  --space-large: 8rem;
+
 
   /* Background & Color */
-  --background: #fff;
-  --color-foreground: #060606;
-  --color-secondary-foreground: #888;
-  --border-color: #e6e6e6;
-}
+  --accent: #903C02;
+  --secondary: #0A6365;
+  --background: rgb(234, 229, 223);
+  --foreground: rgba(50, 32, 24, 0.9);
+  --foreground-muted: rgba(50, 32, 24, 0.4);
 
-h1 {
-  font-family: var(--font-serif);
-  line-height: 1;
-}
+  /*  */
+  --text-xs: 10px;
+  --text-sm: 14px;
+  --text-xl: 52px;
 
-p {
-  font-family: var(--font-sans);
+
+  /*  */
+  --leading: 1;
+
+
+  /* NavBar */
+  --navbar-height: 5.625rem;
 }
 
 body {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  place-items: start;
+  font-family: var(--font-sans);
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
-.hero {
-  padding-inline: 20rem;
-  padding-block: 5rem;
+main {
+  padding-inline: var(--space-base);
+}
+
+@media only screen and (min-width: 700px) {
+  main {
+    margin: 0 auto;
+    padding-inline: var(--space-large);
+    max-width: 1800px;
+  }
 }
