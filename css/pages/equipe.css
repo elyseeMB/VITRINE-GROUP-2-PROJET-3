@@ -1,6 +1,9 @@
 .team-hero {
-  padding: 90px 10%;
+  margin: 0 auto;
+  padding: calc(var(--navbar-height) + var(--space-xl));
   text-align: center;
+  margin-inline: calc(var(--space-base) * -1);
+  padding-inline: var(--space-base);
   background: #f8f4ef;
 }
 
@@ -90,4 +93,11 @@
 
   color: #666;
 
+}
+
+@media only screen and (min-width:700px) {
+  .team-hero {
+    margin-inline: calc(var(--space-large) * -1);
+    padding-inline: var(--space-large);
+  }
 }
