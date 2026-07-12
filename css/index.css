@@ -15,6 +15,10 @@
 /* modules */
 @import "./modules/navbar.css";
 
+
+/* pages */
+@import "./pages/products.css";
+
 :root {
   --font-serif: "Kate", serif;
   --font-sans: "inter", sans-serif;
@@ -51,6 +55,8 @@
 
 body {
   padding: 0;
+  height: 100vh;
+  width: 100%;
   margin: 0;
   display: flex;
   place-items: start;
@@ -60,6 +66,8 @@ body {
 }
 
 main {
+  min-height: 0;
+  height: 100%;
   padding-inline: var(--space-base);
 }
 
