@@ -46,7 +46,13 @@
 
   transition: .4s;
 
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+
 }
+
 
 .card:hover {
 
@@ -56,10 +62,11 @@
 
 .card img {
 
-  width: 100%;
+  width: calc(100% + (var(--space-xl) * 2));
   height: 320px;
 
   object-fit: cover;
+  margin: calc(var(--space-xl) * -1);
 
 }
 
