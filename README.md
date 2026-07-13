@@ -7,7 +7,7 @@
 **Contributeurs :**
 
 - Danielle Benicia AKIANA (Lead du projet)
-- [Ton nom] (Admin du groupe)
+- MBOUSSA Emmanuelito (Admin du groupe)
 - HOLANDAIS Graciel (Dev)
 - lediniengo (Dev)
 - M. Piergy (Dev)
