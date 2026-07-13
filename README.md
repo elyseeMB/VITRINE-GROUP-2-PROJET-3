@@ -22,7 +22,7 @@
 
 ### Structure générale
 
-​`
+```
 VITRINE-GROUP-2-PROJET-3
 │
 ├── Pages HTML
@@ -36,12 +36,13 @@ VITRINE-GROUP-2-PROJET-3
 │   └── fichiers CSS spécifiques aux pages
 │
 ├── public
-│   ├── images
+│   └── images
 │
 └── Configuration
     ├── README
     └── fichiers éditeur (.vscode)
-​`
+```
+
 
 ## Conflits rencontrés
 
