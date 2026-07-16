@@ -115,7 +115,7 @@
               <label for="email">Email</label>
               <input type="email" id="email" name="email" placeholder="jeanngoma12@gmail.com" required>
             </div>
-            <div class="form-groupe">
+            <div class="form-group">
               <label for="subject">Sujet</label>
               <select id="subject" name="subject">
                 <option value="">Choisissez un sujet</option>
@@ -139,116 +139,141 @@
           </form>
         </article>
         <aside class="contact-infos-wrapper">
-          <div class="contact-infos">
-            <h2 class="contact-infos_title">Nos coordonnées</h2>
-            <div class="contact-infos_item">
-              <span class="contact-infos_icon">📍</span>
-            </div>
-            <strong>Adresse</strong>
-            <p>23e étage Tour business (Tours jumelles) Mpila Brazzaville, République du Congo</p>
-          </div>
+        <div class="contact-infos">
+          <h2 class="contact-infos_title">Nos coordonnées</h2>
+          
+          
           <div class="contact-infos_item">
-            <span class="contact-infos_icon">📞</span>
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Adresse</strong>
+              <p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Tours+Jumelles+Mpila+Brazzaville" target="_blank" rel="noopener noreferrer">
+                  23e étage Tour business (Tours jumelles) Mpila Brazzaville, République du Congo
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <!-- Téléphone -->
+          <div class="contact-infos_item">
+            <i class="fa-solid fa-phone"></i>
             <div>
               <strong>Téléphone</strong>
               <p><a href="tel:+2421151515">+242 115 15 15</a></p>
             </div>
           </div>
+
+          <!-- Email -->
           <div class="contact-infos_item">
-            <span class="contact-infos_icon">✉️</span>
+            <i class="fa-solid fa-envelope"></i>
             <div>
               <strong>Email</strong>
               <p><a href="mailto:contact@portevitrine.cg">contact@portevitrine.cg</a></p>
             </div>
           </div>
+
+          <!-- Horaires -->
           <div class="contact-infos_item">
-            <span class="contact-infos_icon">🕐</span>
+            <i class="fa-solid fa-clock"></i>
             <div>
               <strong>Horaires d'ouverture</strong>
               <p>Lundi - Vendredi : 08h30 - 18h00</p>
             </div>
           </div>
+
+          <!-- Réseaux Sociaux -->
           <div class="contact-social">
             <span class="contact-social_label">Suivez-nous</span>
             <div class="contact-social_links">
-              <a href="https://www.instagram.com" target="_blank" style="font-size: 30px; color: #E1306c;">
+              <a href="https://www.instagram.com" target="_blank" class="social-link instagram">
                 <i class="fa-brands fa-instagram"></i>
               </a>
+              <a href="https://www.facebook.com" target="_blank" class="social-link facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" class="social-link linkedin">
+                  <i class="fa-brands fa-linkedin-in"></i> <!-- Version plus moderne du logo -->
+                </a>
+                <!-- Pinterest -->
+                <a href="https://www.pinterest.com" target="_blank" class="social-link pinterest">
+                  <i class="fa-brands fa-pinterest-p"></i>
+                </a>
             </div>
           </div>
+          
+        </div>
         </aside>
       </div>
-      <footer class="footer">
+    <footer class="footer">
 
-        <div class="footer-container">
+      <div class="footer-container">
 
-          <div class="footer-logo">
+        <div class="footer-logo">
 
-            <h2>Porte Vitrine</h2>
-
-            <p>
-              Nous imaginons des espaces où l'architecture contemporaine
-              rencontre l'élégance et le patrimoine africain.
-            </p>
-
-          </div>
-
-          <div class="footer-links">
-
-            <h3>Navigation</h3>
-
-            <ul>
-
-              <li><a href="../index.html">Accueil</a></li>
-              <li><a href="realisations.html">Réalisations</a></li>
-              <li><a href="equipe.html">Équipe</a></li>
-              <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-
-          </div>
-
-          <div class="footer-contact">
-
-            <h3>Contact</h3>
-
-            <p>📍 Brazzaville, Congo</p>
-
-            <p>📞 +242 06 000 00 00</p>
-
-            <p>✉ contact@portevitrine.com</p>
-
-          </div>
-
-          <div class="footer-social">
-
-            <h3>Suivez-nous</h3>
-
-            <div class="social-icons">
-
-              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-
-              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-
-              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="footer-bottom">
+          <h2>Porte Vitrine</h2>
 
           <p>
-            Porte Vitrine
+            Nous imaginons des espaces où l'architecture contemporaine
+            rencontre l'élégance et le patrimoine africain.
           </p>
 
         </div>
 
-      </footer>
+        <div class="footer-links">
+
+          <h3>Navigation</h3>
+
+          <ul>
+
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="pages/realisations.html">Réalisations</a></li>
+            <li><a href="pages/equipe.html">Équipe</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h3>Contact</h3>
+
+          <p><i class="fa-solid fa-location-dot"></i> Brazzaville, Congo</p>
+          <p><i class="fa-solid fa-phone"></i> +242 06 000 00 00</p>
+         <p><i class="fa-solid fa-envelope"></i> contact@portevitrine.com</p>
+
+        </div>
+
+        <div class="footer-social">
+
+          <h3>Suivez-nous</h3>
+
+          <div class="social-icons">
+
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p>
+          Porte Vitrine
+        </p>
+
+      </div>
+
+    </footer>
     </section>
   </main>
 </body>
